@@ -1,5 +1,5 @@
-# Java28
-This is a practice for graduate design.
+# Volunteer
+This is my graduate design.
 
 Needs:
 	apache-maven-3.6.0-bin
