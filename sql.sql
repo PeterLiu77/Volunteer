@@ -13,6 +13,10 @@ File Encoding         : 65001
 Date: 2019-01-11 21:39:17
 */
 
+create database if not exists `Volunteer`;
+
+USE `Volunteer`;
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
