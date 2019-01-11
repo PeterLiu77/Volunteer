@@ -24,7 +24,15 @@ public class Encrypt {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(new Md5Hash("123456","tony",2).toString());
+		System.out.println(new Md5Hash("123","z1",2).toString());
+		System.out.println(new Md5Hash("123","z2",2).toString());
+		System.out.println(new Md5Hash("123","z3",2).toString());
+		System.out.println(new Md5Hash("123","z4",2).toString());
+		System.out.println(new Md5Hash("123","f1",2).toString());
+		System.out.println(new Md5Hash("123","f2",2).toString());
+		System.out.println(new Md5Hash("123","f3",2).toString());
+		System.out.println(new Md5Hash("123","g1",2).toString());
+		System.out.println(new Md5Hash("123","g2",2).toString());
 	}
 	
 	

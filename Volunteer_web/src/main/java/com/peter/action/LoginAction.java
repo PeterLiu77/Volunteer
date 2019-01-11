@@ -7,12 +7,6 @@ import com.peter.domain.User;
 import com.peter.utils.SysConstant;
 import com.peter.utils.UtilFuns;
 
-/**
- * @Description: 登录和退出类
- * @Author:		传智播客 java学院	传智.宋江
- * @Company:	http://java.itcast.cn
- * @CreateDate:	2014年10月31日
- */
 public class LoginAction extends BaseAction {
 
 	private static final long serialVersionUID = 1L;

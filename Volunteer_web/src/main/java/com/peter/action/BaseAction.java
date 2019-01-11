@@ -7,13 +7,6 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
-/**
- * @Description:
- * @Author:		传智播客 java学院	传智.宋江
- * @Company:	http://java.itcast.cn
- * @CreateDate:	2014年10月31日
- */
-
 //通过RequestAware, SessionAware, ApplicationAware实行接口获得request,session,application对象，action中就可直接调用
 
 public class BaseAction extends ActionSupport implements RequestAware, SessionAware, ApplicationAware

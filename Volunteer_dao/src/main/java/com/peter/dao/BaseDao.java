@@ -5,12 +5,6 @@ import java.util.Collection;
 import java.util.List;
 import com.peter.utils.Page;
 
-/**
- * @Description:
- * @Author:		传智播客 java学院	传智.宋江
- * @Company:	http://java.itcast.cn
- * @CreateDate:	2014年10月31日
- */
 public interface BaseDao {
 
 	//查询所有，带条件查询
