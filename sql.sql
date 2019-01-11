@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50528
 File Encoding         : 65001
 
-Date: 2019-01-11 16:41:56
+Date: 2019-01-11 21:39:17
 */
 
 create database if not exists `Volunteer`;
@@ -155,15 +155,15 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('001', '1', 'z1', '123', '1');
-INSERT INTO `user` VALUES ('002', '1', 'z2', '123', '1');
-INSERT INTO `user` VALUES ('003', '1', 'z3', '123', '0');
-INSERT INTO `user` VALUES ('004', '1', 'z4', '123', '1');
-INSERT INTO `user` VALUES ('011', '2', 'f1', '123', '0');
-INSERT INTO `user` VALUES ('012', '2', 'f2', '123', '1');
-INSERT INTO `user` VALUES ('013', '2', 'f4', '123', '1');
-INSERT INTO `user` VALUES ('021', '3', 'g1', '123', '1');
-INSERT INTO `user` VALUES ('022', '3', 'g2', '123', '1');
+INSERT INTO `user` VALUES ('001', '1', 'z1', '83764505f21dacf08785d5ebec0dc0c1', '1');
+INSERT INTO `user` VALUES ('002', '1', 'z2', '47d755cb2ec838faa3883b00d62eab24', '1');
+INSERT INTO `user` VALUES ('003', '1', 'z3', '14446365c62b42d017fe98c51ccdf237', '0');
+INSERT INTO `user` VALUES ('004', '1', 'z4', '11e7dcbf6fc2c18f573bf56b3911adb3', '1');
+INSERT INTO `user` VALUES ('011', '2', 'f1', 'e09a0407ca48435931907520ca9993b6', '0');
+INSERT INTO `user` VALUES ('012', '2', 'f2', '8aefc2b570ef3841665e45d018792b01', '1');
+INSERT INTO `user` VALUES ('013', '2', 'f3', '2b049f675069835294e896a3a6eb9643', '1');
+INSERT INTO `user` VALUES ('021', '3', 'g1', 'ed7bc4beff7c18324fdb90f1411cf969', '1');
+INSERT INTO `user` VALUES ('022', '3', 'g2', '686441031c3fe1090d81f5c258555df5', '1');
 
 -- ----------------------------
 -- Table structure for user_info
