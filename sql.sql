@@ -171,7 +171,7 @@ INSERT INTO `user` VALUES ('022', '3', 'g2', '686441031c3fe1090d81f5c258555df5',
 DROP TABLE IF EXISTS `user_info`;
 CREATE TABLE `user_info` (
   `USER_ID` varchar(40) NOT NULL,
-  `USER_NAME` varchar(50) DEFAULT NULL COMMENT '不能重复,可为中文',
+  `USER_NAME` varchar(50) DEFAULT NULL COMMENT '不能重复,可以是中文',
   `PASSWORD` varchar(64) DEFAULT NULL COMMENT 'shiro MD5密码32位',
   `STATE` int(11) DEFAULT NULL COMMENT '1启用0停用',
   `NAME` varchar(20) DEFAULT NULL,
